@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="33px" viewBox="0 0 25 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icons8-word</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Newsfeed-[All]" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-43.000000, -3262.000000)">
+        <g id="iOS-Post-type-[All]" transform="translate(0.000000, 2716.000000)" fill-rule="nonzero">
+            <g id="icons8-word" transform="translate(43.000000, 546.000000)">
+                <polygon id="Shape" fill="#1976D2" points="25 32.8125 0 32.8125 0 0 17.1875 0 25 7.8125"></polygon>
+                <polygon id="Shape" fill="#E3F2FD" points="23.828125 8.59375 16.40625 8.59375 16.40625 1.171875"></polygon>
+                <polygon id="Shape" fill="#FAFAFA" points="14.60625 21.271875 15.753125 15.003125 18.1429688 15.003125 16.0210938 25 13.521875 25 12.1828125 19.3007812 10.8710938 25 8.37890625 25 6.25 15.0023438 8.64609375 15.0023438 9.79296875 21.2710937 11.1664063 15.0023437 13.2125 15.0023437"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

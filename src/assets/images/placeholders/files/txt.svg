@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="33px" viewBox="0 0 25 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icons8-txt</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Newsfeed-[All]" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-301.000000, -3337.000000)">
+        <g id="iOS-Post-type-[All]" transform="translate(0.000000, 2716.000000)" fill-rule="nonzero">
+            <g id="icons8-txt" transform="translate(301.000000, 621.000000)">
+                <polygon id="Shape" fill="#BA68C8" points="25 32.8125 0 32.8125 0 0 17.1875 0 25 7.8125"></polygon>
+                <polygon id="Shape" fill="#F3E5F5" points="23.828125 8.59375 16.40625 8.59375 16.40625 1.171875"></polygon>
+                <g id="Group" transform="translate(3.906250, 15.625000)" fill="#4A148C">
+                    <polygon id="Shape" points="5.6609375 1.3453125 3.73828125 1.3453125 3.73828125 7.8125 2.1625 7.8125 2.1625 1.3453125 0.271875 1.3453125 0.271875 0.03671875 5.66015625 0.03671875 5.66015625 1.3453125"></polygon>
+                    <polygon id="Shape" points="8.99921875 2.70703125 10.0460937 0.03671875 11.8460937 0.03671875 10.0195312 3.89296875 11.8882812 7.8125 10.0671875 7.8125 8.99921875 5.09453125 7.9359375 7.8125 6.11484375 7.8125 7.984375 3.8921875 6.15234375 0.0359375 7.95234375 0.0359375"></polygon>
+                    <polygon id="Shape" points="17.7203125 1.3453125 15.7976563 1.3453125 15.7976563 7.8125 14.221875 7.8125 14.221875 1.3453125 12.33125 1.3453125 12.33125 0.03671875 17.7195312 0.03671875 17.7195312 1.3453125"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

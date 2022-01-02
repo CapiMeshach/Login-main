@@ -1,0 +1,94 @@
+.spinner.loading {
+  position: fixed;
+  z-index: 999;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  &.inline-loading {
+    position: relative;
+    width: 100%;
+    height: toRem(20);
+    z-index: 1;
+    background: none;
+  }
+  &.full-screen {
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    margin: 0;
+    background-color: rgba($c-secondary, 0.3);
+    width: auto;
+    overflow: none;
+  }
+}
+
+.global-spinner {
+  font-size: toRem(55);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.inline-spinner {
+  line-height: 0;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.sp {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='135' height='140' viewBox='0 0 135 140' xmlns='http://www.w3.org/2000/svg' fill='%23279CF5'%3E%3Crect y='10' width='15' height='120' rx='6'%3E%3Canimate attributeName='height' begin='0.5s' dur='1s' values='120;110;100;90;80;70;60;50;40;140;120' calcMode='linear' repeatCount='indefinite' /%3E%3Canimate attributeName='y' begin='0.5s' dur='1s' values='10;15;20;25;30;35;40;45;50;0;10' calcMode='linear' repeatCount='indefinite' /%3E%3C/rect%3E%3Crect x='30' y='10' width='15' height='120' rx='6'%3E%3Canimate attributeName='height' begin='0.25s' dur='1s' values='120;110;100;90;80;70;60;50;40;140;120' calcMode='linear' repeatCount='indefinite' /%3E%3Canimate attributeName='y' begin='0.25s' dur='1s' values='10;15;20;25;30;35;40;45;50;0;10' calcMode='linear' repeatCount='indefinite' /%3E%3C/rect%3E%3Crect x='60' width='15' height='140' rx='6'%3E%3Canimate attributeName='height' begin='0s' dur='1s' values='120;110;100;90;80;70;60;50;40;140;120' calcMode='linear' repeatCount='indefinite' /%3E%3Canimate attributeName='y' begin='0s' dur='1s' values='10;15;20;25;30;35;40;45;50;0;10' calcMode='linear' repeatCount='indefinite' /%3E%3C/rect%3E%3Crect x='90' y='10' width='15' height='120' rx='6'%3E%3Canimate attributeName='height' begin='0.25s' dur='1s' values='120;110;100;90;80;70;60;50;40;140;120' calcMode='linear' repeatCount='indefinite' /%3E%3Canimate attributeName='y' begin='0.25s' dur='1s' values='10;15;20;25;30;35;40;45;50;0;10' calcMode='linear' repeatCount='indefinite' /%3E%3C/rect%3E%3Crect x='120' y='10' width='15' height='120' rx='6'%3E%3Canimate attributeName='height' begin='0.5s' dur='1s' values='120;110;100;90;80;70;60;50;40;140;120' calcMode='linear' repeatCount='indefinite' /%3E%3Canimate attributeName='y' begin='0.5s' dur='1s' values='10;15;20;25;30;35;40;45;50;0;10' calcMode='linear' repeatCount='indefinite' /%3E%3C/rect%3E%3C/svg%3E");
+  width: toRem(50);
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.small-loader {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: toRem(14);
+  height: toRem(14);
+  margin: 0 0 0 toRem(-7);
+  z-index: 2;
+  border-radius: toRem(99);
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.25;
+    border: toRem(2) solid transparent;
+    border-color: inherit;
+    border-radius: inherit;
+  }
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border: toRem(2) solid transparent;
+    border-top-color: inherit;
+    border-radius: inherit;
+    animation: spin 700ms infinite linear;
+  }
+  @keyframes spin {
+    to {
+      transform: rotate(359deg);
+    }
+  }
+}

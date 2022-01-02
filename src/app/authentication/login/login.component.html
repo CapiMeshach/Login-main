@@ -1,0 +1,53 @@
+<section class="login">
+  <form
+    [formGroup]="form"
+    class="login__form"
+    CptDebounceClickDirective
+    (debounceClick)="submit()"
+    fxLayout="column"
+  >
+    <div class="login__form__logo">
+      <img src="assets/images/logo/capiter_logo.svg" alt="Capiter Logo" />
+    </div>
+    <div fxLayout="row wrap">
+      <div fxFlex="100">
+        <cpt-textbox
+          [id]="'txtMobileEmail'"
+          [name]="'txtMobileEmail'"
+          [placeholder]="'Email / Mobile'"
+          [isLegacy]="true"
+          [required]="true"
+          [requiredErrorMessage]="'required Field'"
+          formControlName="mobileEmailField"
+          ngDefaultControl
+        >
+        </cpt-textbox>
+      </div>
+      <div fxFlex="100">
+        <cpt-textbox
+          [id]="'txtPassword'"
+          [name]="'txtPassword'"
+          [isPassword]="true"
+          [isLegacy]="true"
+          [required]="true"
+          [placeholder]="'password'"
+          [requiredErrorMessage]="'required Field'"
+          [patternKey]="'password'"
+          [patternErrorMessage]="'password length validation'"
+          [maxLength]="100"
+          formControlName="passwordField"
+          ngDefaultControl
+        >
+        </cpt-textbox>
+      </div>
+      <div fxFlex="100">
+        <button type="submit" mat-raised-button id="submitBtn" class="login__form__button">
+          <span *ngIf="isLoading">
+            <cpt-spinner [inlineSpinner]="true" [isDefaultColor]="false"></cpt-spinner>
+          </span>
+          <span *ngIf="!isLoading">login</span>
+        </button>
+      </div>
+    </div>
+  </form>
+</section>

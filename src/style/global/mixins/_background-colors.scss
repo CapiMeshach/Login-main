@@ -1,0 +1,50 @@
+/** tertiary background color for all status types*/
+@mixin background-tertiary {
+  background-color: transparent;
+}
+
+/** 
+add a hover effect by giving the background 
+image the default hover color or optional color
+ */
+@mixin background-hover($clr: $c-default-hover) {
+  background-image: linear-gradient($clr, $clr);
+}
+
+/** danger */
+@mixin background-primary-danger {
+  background-color: $c-danger;
+}
+@mixin background-secondary-danger {
+  background-color: $c-danger-2;
+}
+
+/** warning */
+@mixin background-primary-warning {
+  background-color: $c-warning;
+}
+@mixin background-secondary-warning {
+  background-color: $c-warning-2;
+}
+
+/** success */
+@mixin background-primary-success {
+  background-color: $c-success-hover;
+}
+@mixin background-secondary-success {
+  background-color: $c-success-2;
+}
+
+/** info */
+@mixin background-primary-info {
+  background-color: $c-secondary;
+}
+@mixin background-secondary-info {
+  background-color: $c-white;
+}
+
+/** main */
+
+@mixin background-secondary-main {
+  background-color: rgba($c-secondary-hover, 0.24);
+}

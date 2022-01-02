@@ -1,0 +1,31 @@
+$font-family-base: 'DM Sans', sans-serif;
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+input {
+  font-family: $font-family-base;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family-base;
+}
+
+.mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float
+  .mat-form-field-label,
+.mat-form-field-appearance-outline.mat-form-field-can-float
+  .mat-input-server:focus
+  + .mat-form-field-label-wrapper
+  .mat-form-field-label,
+.mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float
+  .mat-form-field-label,
+.mat-form-field-appearance-outline.mat-form-field-can-float
+  .mat-input-server:focus
+  + .mat-form-field-label-wrapper
+  .mat-form-field-label {
+  color: $c-secondary !important;
+}

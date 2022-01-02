@@ -1,0 +1,31 @@
+/** primary color for all status types*/
+@mixin color-primary {
+  color: $c-white;
+}
+
+/** rest of mixins is for secondary and tertiary states */
+
+/** info */
+@mixin color-info {
+  color: $c-secondary;
+}
+
+/** danger */
+@mixin color-danger {
+  color: $c-danger;
+}
+
+/** warning */
+@mixin color-warning {
+  color: $c-warning;
+}
+
+/** success */
+@mixin color-success {
+  color: $c-success-hover;
+}
+
+/** main */
+@mixin color-main {
+  color: $c-secondary;
+}

@@ -1,0 +1,27 @@
+/* Main font [400, 500, 700] */
+$fonts: (
+  '400': 'Regular',
+  '500': 'Medium',
+  '700': 'Bold',
+);
+@each $w, $name in $fonts {
+  @font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: #{$w};
+    src: url(../../fonts/dm-sans//DM-Sans-#{$name}.ttf.eot),
+      url(../../fonts/dm-sans/DM-Sans-#{$name}.ttf.woff) format('woff');
+  }
+}
+
+/* Capiter  Icon Font */
+@font-face {
+  font-family: 'Capiter';
+  src: url('../../fonts/icons/Capiter.eot?3lci06');
+  src: url('../../fonts/icons/Capiter.eot?3lci06#iefix') format('embedded-opentype'),
+    url('../../fonts/icons/Capiter.ttf?3lci06') format('truetype'),
+    url('../../fonts/icons/Capiter.woff?3lci06') format('woff'),
+    url('../../fonts/icons/Capiter.svg?3lci06#Capiter') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,35 @@
+//@import "common.scss";
+
+.login,
+.create-password {
+  @include absoluteCenter("both");
+
+  &__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    &__logo {
+      width: toRem(250);
+      padding-bottom: toRem(50);
+
+      img {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &__button {
+      height: toRem(50);
+      padding: 0;
+      border-radius: toRem(36);
+      background-color: rgba($c-secondary, 1);
+      width: 100%;
+      font-weight: $f-bold;
+      color: rgba($c-white, 1);
+      font-size: toRem(20);
+    }
+  }
+}

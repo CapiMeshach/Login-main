@@ -1,0 +1,24 @@
+/* Global Settings */
+@import 'global/colors';
+@import 'global/mixins';
+@import 'global/functions';
+@import 'global/fonts';
+@import 'global/typography';
+@import 'global/generics';
+
+/* Base */
+@import 'base';
+
+/* Modules */
+@import 'modules/animations';
+@import 'modules/spinner';
+@import 'modules/icons';
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import '~ngx-toastr/toastr';
+
+/* Style Overrides */
+@import 'overrides/toast';
+@import 'overrides/material';
+
+@import 'app';
